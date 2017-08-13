@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		C4E5BEA71F404BD0002DC70D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E5BEA61F404BD0002DC70D /* main.m */; };
 		C4E5BEAA1F404BD0002DC70D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E5BEA91F404BD0002DC70D /* AppDelegate.m */; };
-		C4E5BEAD1F404BD0002DC70D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E5BEAC1F404BD0002DC70D /* ViewController.m */; };
-		C4E5BEB01F404BD0002DC70D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E5BEAE1F404BD0002DC70D /* Main.storyboard */; };
 		C4E5BEB21F404BD0002DC70D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E5BEB11F404BD0002DC70D /* Assets.xcassets */; };
 		C4E5BEB51F404BD0002DC70D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E5BEB31F404BD0002DC70D /* LaunchScreen.storyboard */; };
 		C4E5BEC01F404BD0002DC70D /* ______DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E5BEBF1F404BD0002DC70D /* ______DemoTests.m */; };
 		C4E5BECB1F404BD0002DC70D /* ______DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E5BECA1F404BD0002DC70D /* ______DemoUITests.m */; };
+		C4E5BEDA1F404BEA002DC70D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E5BED91F404BEA002DC70D /* Main.storyboard */; };
+		C4E5BEDD1F404BFA002DC70D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E5BEDC1F404BFA002DC70D /* ViewController.m */; };
+		C4E5BEE01F404C00002DC70D /* LLRadarView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E5BEDF1F404C00002DC70D /* LLRadarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +40,6 @@
 		C4E5BEA61F404BD0002DC70D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4E5BEA81F404BD0002DC70D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C4E5BEA91F404BD0002DC70D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C4E5BEAB1F404BD0002DC70D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C4E5BEAC1F404BD0002DC70D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C4E5BEAF1F404BD0002DC70D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4E5BEB11F404BD0002DC70D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4E5BEB41F404BD0002DC70D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4E5BEB61F404BD0002DC70D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +49,11 @@
 		C4E5BEC61F404BD0002DC70D /* 钉钉签到按钮DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "钉钉签到按钮DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E5BECA1F404BD0002DC70D /* ______DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______DemoUITests.m"; sourceTree = "<group>"; };
 		C4E5BECC1F404BD0002DC70D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E5BED81F404BEA002DC70D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4E5BEDB1F404BFA002DC70D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C4E5BEDC1F404BFA002DC70D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4E5BEDE1F404C00002DC70D /* LLRadarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLRadarView.h; sourceTree = "<group>"; };
+		C4E5BEDF1F404C00002DC70D /* LLRadarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLRadarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +104,13 @@
 		C4E5BEA41F404BD0002DC70D /* 钉钉签到按钮Demo */ = {
 			isa = PBXGroup;
 			children = (
+				C4E5BEDE1F404C00002DC70D /* LLRadarView.h */,
+				C4E5BEDF1F404C00002DC70D /* LLRadarView.m */,
 				C4E5BEA81F404BD0002DC70D /* AppDelegate.h */,
 				C4E5BEA91F404BD0002DC70D /* AppDelegate.m */,
-				C4E5BEAB1F404BD0002DC70D /* ViewController.h */,
-				C4E5BEAC1F404BD0002DC70D /* ViewController.m */,
-				C4E5BEAE1F404BD0002DC70D /* Main.storyboard */,
+				C4E5BED91F404BEA002DC70D /* Main.storyboard */,
+				C4E5BEDB1F404BFA002DC70D /* ViewController.h */,
+				C4E5BEDC1F404BFA002DC70D /* ViewController.m */,
 				C4E5BEB11F404BD0002DC70D /* Assets.xcassets */,
 				C4E5BEB31F404BD0002DC70D /* LaunchScreen.storyboard */,
 				C4E5BEB61F404BD0002DC70D /* Info.plist */,
@@ -246,9 +251,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4E5BEDA1F404BEA002DC70D /* Main.storyboard in Resources */,
 				C4E5BEB51F404BD0002DC70D /* LaunchScreen.storyboard in Resources */,
 				C4E5BEB21F404BD0002DC70D /* Assets.xcassets in Resources */,
-				C4E5BEB01F404BD0002DC70D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4E5BEAD1F404BD0002DC70D /* ViewController.m in Sources */,
+				C4E5BEDD1F404BFA002DC70D /* ViewController.m in Sources */,
+				C4E5BEE01F404C00002DC70D /* LLRadarView.m in Sources */,
 				C4E5BEAA1F404BD0002DC70D /* AppDelegate.m in Sources */,
 				C4E5BEA71F404BD0002DC70D /* main.m in Sources */,
 			);
@@ -311,20 +317,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C4E5BEAE1F404BD0002DC70D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C4E5BEAF1F404BD0002DC70D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C4E5BEB31F404BD0002DC70D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C4E5BEB41F404BD0002DC70D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C4E5BED91F404BEA002DC70D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4E5BED81F404BEA002DC70D /* Base */,
+			);
+			name = Main.storyboard;
+			path = "../../../../../Downloads/LLRadarView-master/LLRadarView";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
